@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0eed6e4-9f3f-4b77-badd-2334364af046" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CohortTwelve.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Driller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TestDrillers.java" afterDir="false" />
+    <list default="true" id="c0eed6e4-9f3f-4b77-badd-2334364af046" name="Changes" comment="Trying out my If...Else statement">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C1/Nokia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C1/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C1/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/SalesPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CohortTwelve.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CohortTwelve.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C1/Driller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestDrillers.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/C1/TestDrillers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,63 +46,102 @@
     &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/HP/IdeaProjects/CohortTwelve/src/com/unicornWimps&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.unicornWimps.myBank" />
+      <recent name="com.unicornWimps" />
+      <recent name="com" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\IdeaProjects\CohortTwelve" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="C1" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDrillers.fromFiftyToNinetyNine">
-    <configuration name="TestDrillers.fromFiftyToNinetyNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BikeTest.decelerateBikeAtGear4">
+    <configuration name="BankTest.accountCanBeCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CohortTwelve" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDrillers" />
-      <option name="METHOD_NAME" value="fromFiftyToNinetyNine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unicornWimps.myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.unicornWimps.myBank" />
+      <option name="MAIN_CLASS_NAME" value="com.unicornWimps.myBank.BankTest" />
+      <option name="METHOD_NAME" value="accountCanBeCreatedTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDrillers.fromFiveHundredToInfinity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.customerCanDepositInHerAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CohortTwelve" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDrillers" />
-      <option name="METHOD_NAME" value="fromFiveHundredToInfinity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unicornWimps.myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.unicornWimps.myBank" />
+      <option name="MAIN_CLASS_NAME" value="com.unicornWimps.myBank.BankTest" />
+      <option name="METHOD_NAME" value="customerCanDepositInHerAccountTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDrillers.fromHundredToHundredAndNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.customerCanNotWithdrawMoreThanBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CohortTwelve" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDrillers" />
-      <option name="METHOD_NAME" value="fromHundredToHundredAndNine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unicornWimps.myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.unicornWimps.myBank" />
+      <option name="MAIN_CLASS_NAME" value="com.unicornWimps.myBank.BankTest" />
+      <option name="METHOD_NAME" value="customerCanNotWithdrawMoreThanBalance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDrillers.fromThirtyToFortyNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.customerCanWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CohortTwelve" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDrillers" />
-      <option name="METHOD_NAME" value="fromThirtyToFortyNine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unicornWimps.myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.unicornWimps.myBank" />
+      <option name="MAIN_CLASS_NAME" value="com.unicornWimps.myBank.BankTest" />
+      <option name="METHOD_NAME" value="customerCanWithdraw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDrillers.fromTwoHundredToFourHundredandNinetyNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.decelerateBikeAtGear4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CohortTwelve" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDrillers" />
-      <option name="METHOD_NAME" value="fromTwoHundredToFourHundredandNinetyNine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="C1" />
+      <option name="MAIN_CLASS_NAME" value="C1.BikeTest" />
+      <option name="METHOD_NAME" value="decelerateBikeAtGear4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDrillers.fromFiftyToNinetyNine" />
-        <item itemvalue="JUnit.TestDrillers.fromHundredToHundredAndNine" />
-        <item itemvalue="JUnit.TestDrillers.fromTwoHundredToFourHundredandNinetyNine" />
-        <item itemvalue="JUnit.TestDrillers.fromFiveHundredToInfinity" />
-        <item itemvalue="JUnit.TestDrillers.fromThirtyToFortyNine" />
+        <item itemvalue="JUnit.BikeTest.decelerateBikeAtGear4" />
+        <item itemvalue="JUnit.BankTest.customerCanNotWithdrawMoreThanBalance" />
+        <item itemvalue="JUnit.BankTest.customerCanWithdraw" />
+        <item itemvalue="JUnit.BankTest.accountCanBeCreatedTest" />
+        <item itemvalue="JUnit.BankTest.customerCanDepositInHerAccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,8 +166,37 @@
       <option name="presentableId" value="Default" />
       <updated>1657121328966</updated>
       <workItem from="1657121331507" duration="2495000" />
-      <workItem from="1657135773990" duration="12626000" />
+      <workItem from="1657135773990" duration="17087000" />
+      <workItem from="1657267043082" duration="25826000" />
+      <workItem from="1657620462377" duration="25517000" />
+      <workItem from="1657808615609" duration="10809000" />
+      <workItem from="1657872742237" duration="47336000" />
+      <workItem from="1658556129514" duration="3632000" />
+      <workItem from="1658746970241" duration="11013000" />
+      <workItem from="1658821563498" duration="25969000" />
+      <workItem from="1659088385837" duration="21000" />
+      <workItem from="1659601665935" duration="719000" />
+      <workItem from="1659721657837" duration="29000" />
+      <workItem from="1659983827422" duration="180000" />
+      <workItem from="1660048072468" duration="9000" />
+      <workItem from="1660048209479" duration="56000" />
+      <workItem from="1660067643319" duration="117000" />
+      <workItem from="1660118790709" duration="8000" />
+      <workItem from="1660119307589" duration="682000" />
+      <workItem from="1660233442619" duration="600000" />
+      <workItem from="1661171377533" duration="3535000" />
+      <workItem from="1663664011829" duration="2791000" />
+      <workItem from="1663942761795" duration="62000" />
+      <workItem from="1664874027511" duration="2390000" />
     </task>
+    <task id="LOCAL-00001" summary="Trying out my If...Else statement">
+      <created>1657205546466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657205546466</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +212,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trying out my If...Else statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying out my If...Else statement" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CohortTwelve$BankTest_accountCanBeCreatedTest.ic" NAME="BankTest.accountCanBeCreatedTest Coverage Results" MODIFIED="1658869104961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.unicornWimps.myBank.*</FILTER>
+    </SUITE>
   </component>
 </project>

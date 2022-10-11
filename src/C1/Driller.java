@@ -1,3 +1,5 @@
+package C1;
+
 public class Driller {
     private int calculatePricePerCopy;
 

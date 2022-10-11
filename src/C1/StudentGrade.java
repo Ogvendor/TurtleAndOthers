@@ -1,3 +1,5 @@
+package C1;
+
 import javax.swing.*;
 import java.util.ArrayList;
 
